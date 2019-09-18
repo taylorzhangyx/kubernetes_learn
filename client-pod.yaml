@@ -5,8 +5,8 @@ metadata:
   labels:
     component: web
 spec:
-  container:
+  containers:
     - name: client
-      image: taylorzhangyx/multi-client
+      image: taylorzhangyx/multi-worker
       ports:
         - containerPort: 3000
